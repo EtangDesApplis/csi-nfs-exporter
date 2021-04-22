@@ -48,3 +48,7 @@ scrape_configs:
   static_configs:
   - targets:
     - localhost:8000
+
+
+usr/share/grafana/public/dashboards $ ls
+default.json           home.json              scripted.js            scripted_async.js      scripted_templated.js  template_vars.json
