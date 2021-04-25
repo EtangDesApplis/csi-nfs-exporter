@@ -65,7 +65,7 @@
       "targets": [
         {
           "exemplar": true,
-          "expr": "{__name__=~\"key.*\"}",
+          "expr": "{__name__=~\".*pvc.*\"}",
           "interval": "",
           "legendFormat": "",
           "queryType": "randomWalk",
@@ -76,7 +76,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Persistent Volume Disk Usage",
+      "title": "Persistent Volume Disk Usage [GB]",
       "tooltip": {
         "shared": true,
         "sort": 0,

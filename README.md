@@ -23,6 +23,13 @@ docker run \
 
 {__name__=~"key.*"}
 
+dd if=/dev/zero of=/tmp/pvc-290/myfile bs=1M count=5
+
+#https://github.com/prometheus/client_python#exporting-to-a-pushgateway
+#https://ikod.medium.com/custom-exporter-with-prometheus-b1c23cb24e7a
+
+#https://prometheus.io/docs/guides/node-exporter/
+
 https://grafana.com/docs/grafana/latest/administration/provisioning/
 
 global:
